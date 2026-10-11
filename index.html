@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090b1b" />
+  <title>For Bossing Gab ♡</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="starfield" aria-hidden="true">
+    <span class="star star-1">✦</span><span class="star star-2">✧</span>
+    <span class="star star-3">·</span><span class="star star-4">✦</span>
+    <span class="star star-5">✧</span><span class="star star-6">·</span>
+    <span class="star star-7">✦</span><span class="star star-8">·</span>
+  </div>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
+
+  <main class="site">
+    <section class="screen welcome active" id="welcome">
+      <div class="moon" aria-hidden="true">☾</div>
+      <p class="eyebrow">A tiny universe, made for one person</p>
+      <h1>For you,<br><span id="herNameHeading">Bossing Gab</span><span class="pink"> ♡</span></h1>
+      <p class="intro">Out of all the stars in the sky,<br />I'm happiest that I found you.</p>
+      <button class="primary-btn" id="startBtn">Come a little closer <span>→</span></button>
+      <p class="signature-note">with all my love, Elet</p>
+      <div class="orbit-heart" aria-hidden="true">♡</div>
+    </section>
+
+    <section class="screen memories" id="memories">
+      <header class="topline">
+        <span>OUR LITTLE UNIVERSE</span>
+        <span id="counter">01 / 04</span>
+      </header>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+
+      <article class="slide-card">
+        <div class="photo-wrap">
+          <div class="photo-frame">
+            <img id="slideImage" src="photos/memory-1.jpg" alt="Your memory together" />
+            <div class="photo-placeholder" id="photoPlaceholder">
+              <span>♡</span>
+              <strong>Your memory goes here</strong>
+              <small>Add a photo in script.js</small>
+            </div>
+          </div>
+          <span class="photo-orbit" aria-hidden="true">✦</span>
+        </div>
+        <div class="slide-copy">
+          <p class="eyebrow" id="slideKicker">A LITTLE MEMORY</p>
+          <h2 id="slideTitle">My favorite kind of magic</h2>
+          <p id="slideMessage">The world is a pretty big place, but somehow my favorite place is wherever I get to share a moment with you.</p>
+          <div class="tiny-divider"><span>✦</span><span>♡</span><span>✦</span></div>
+        </div>
+      </article>
+
+      <div class="controls">
+        <button class="secondary-btn" id="prevBtn" aria-label="Previous memory">← Back</button>
+        <div class="dots" id="dots" aria-label="Choose a memory"></div>
+        <button class="primary-btn" id="nextBtn">Next memory →</button>
+      </div>
+      <p class="bottom-note">no rush, love. take your time ♡</p>
+    </section>
+
+    <section class="screen secret-screen" id="secretScreen">
+      <div class="secret-card">
+        <div class="lock-icon">✧</div>
+        <p class="eyebrow">PSSST… ONE MORE THING</p>
+        <h2>A little secret<br />just for you</h2>
+        <p class="secret-hint">Some things are too special to leave out in the open.</p>
+        <button class="primary-btn" id="unlockBtn">Tap to unlock ♡</button>
+        <div class="secret-reveal" id="secretReveal" hidden>
+          <div class="reveal-heart">♥</div>
+          <p id="secretMessage">If I had to find you in a thousand lifetimes, I think some part of my heart would still know the way.</p>
+          <p class="secret-signoff">— Elet, always cheering for you</p>
+        </div>
+      </div>
+      <button class="text-btn" id="toLetterBtn">There's a letter for you too →</button>
+    </section>
+
+    <section class="screen envelope-screen" id="envelopeScreen">
+      <p class="eyebrow">SEALED WITH LOVE</p>
+      <h2>A letter for<br /><span id="letterNameHeading">Bossing Gab</span></h2>
+      <p class="envelope-prompt">Tap the envelope. I put something from my heart inside.</p>
+      <button class="envelope-button" id="envelopeBtn" aria-label="Open your love letter">
+        <div class="envelope" id="envelope">
+          <div class="letter-paper">
+            <span class="paper-heart">♡</span>
+            <span>for my favorite person</span>
+          </div>
+          <div class="envelope-back"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-seal">♡</div>
+        </div>
+      </button>
+      <p class="tap-hint" id="envelopeHint">tap to open ♡</p>
+      <div class="full-letter" id="fullLetter" hidden>
+        <p class="eyebrow">MY DEAREST BOSSING GAB</p>
+        <h2>In case I don't say it enough… I love you and I'm so very proud of every little thing that you do, I hope that I will be one of the reasons that you smile always.</h2>
+        <p id="finalMessage" class="final-message"></p>
+        <p class="signature">Always yours,<br /><span id="yourName">Elet</span> ♡</p>
+        <button class="secondary-btn" id="replayBtn">Revisit our memories ↺</button>
+      </div>
+    </section>
+
+    <footer class="footer">made beneath the same sky ✦ for Bossing Gab, from Elet</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
