@@ -15,28 +15,28 @@ const slides = [
     kicker: "A LITTLE MEMORY",
     title: "My favorite kind of magic",
     message: "The world is a pretty big place, but somehow my favorite place is wherever I get to share a moment with you.",
-    image: "photos/memory-1.jpg",
+    image: "photos/boss 1.jpg",
     alt: "Our first favorite memory"
   },
   {
     kicker: "THE LITTLE THINGS",
     title: "You make ordinary days glow",
     message: "It's the little things about you that stay with me: the way you talk, the way you laugh, and how you can make a regular day feel special without even trying.",
-    image: "photos/memory-2.jpg",
+    image: "photos/boss 3.jpg",
     alt: "A little moment we want to remember"
   },
   {
     kicker: "IF YOU ONLY KNEW",
     title: "You are so precious to me",
     message: "You don't have to do anything extraordinary to be special to me. You can just be yourself, have your quiet days, be silly, be tired—and I'll still be grateful that I get to know you.",
-    image: "photos/memory-3.jpg",
+    image: "photos/boss 4.jpg",
     alt: "A photo that makes us smile"
   },
   {
     kicker: "MORE MEMORIES TO COME",
     title: "My favorite is still ahead",
     message: "I hope we get to collect so many more little moments together. More laughs, more pictures, more stories that only we understand. More us.",
-    image: "photos/memory-4.jpg",
+    image: "photos/boss 2.jpg",
     alt: "A memory for the future"
   }
 ];
